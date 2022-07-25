@@ -13,7 +13,7 @@ import Mapping from './pages/Mapping';
 import Others from './pages/Others';
 import Detect from './pages/Detect';
 import Gallary from './pages/Gallary';
-
+import Price from './pages/Price';
 function App() {
   return (
     <BrowserRouter>
@@ -29,6 +29,7 @@ function App() {
       <Route path="/calendar" element={<Others />} />
       <Route path="/detect" element={<Detect />} />
       <Route path="/gallary" element={<Gallary />} />
+      <Route path="/prices" element={<Price />} />
     </Routes>
     </BrowserRouter>
   );

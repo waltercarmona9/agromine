@@ -10,7 +10,7 @@ const SignUp = () => {
     const navigate = useNavigate()
 
     const submit = () => {
-        fetch('http://localhost:8000/auth/register', {
+        fetch('http://http://ordinapi.hailcore.club//auth/register', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({email:email, pass:pass})
