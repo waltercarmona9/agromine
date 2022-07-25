@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {useNavigate} from 'react-router-dom'
 import '../styles/Login.css'
 import logo from '../static/white logo.png'
-// import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 const SignUp = () => {
     const [email, setEmail] = useState()
     const [pass, setPass] = useState()
@@ -41,7 +41,7 @@ const SignUp = () => {
                         <div className="login">
                             <div className="flexo">
                            <h1>Aleardy Have an Account?</h1>
-                           <button>Log In</button>
+                           <button><NavLink to="/login" className="bhai">Log In</NavLink></button>
                             </div>
                             <div className="main">
                                 <div className="content">

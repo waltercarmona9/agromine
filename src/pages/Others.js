@@ -29,7 +29,7 @@ const Others = () => {
 
                         <div className='left'>
 
-                            <div className='calender'>
+                            <div className='calendar'>
                             <Calendar onChange={onChange} value={value} onClickDay={() => {
                                 setModalOpen(true);
                             }}/>

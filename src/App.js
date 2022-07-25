@@ -11,7 +11,8 @@ import HomePage from './pages/HomePage';
 import SignUp from './pages/SignUp';
 import Mapping from './pages/Mapping';
 import Others from './pages/Others';
-
+import Detect from './pages/Detect';
+import Gallary from './pages/Gallary';
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
       <Route path="/camera" element={<Camera />} />
       <Route path="/home" element={<HomePage /> } />
       <Route path="/maps" element={<Mapping /> } />
-      <Route path="/others" element={<Others />} />
+      <Route path="/calendar" element={<Others />} />
+      <Route path="/detect" element={<Detect />} />
+      <Route path="/gallary" element={<Gallary />} />
     </Routes>
     </BrowserRouter>
   );

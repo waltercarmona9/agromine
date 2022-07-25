@@ -3,8 +3,9 @@ import { RiListCheck2, RiTaskLine, RiFileUserLine } from "react-icons/ri";
 import {GiChocolateBar} from 'react-icons/gi'
 import {HiOutlineLogout} from 'react-icons/hi'
 import {TiLocation} from 'react-icons/ti'
-import {FiMoreVertical} from 'react-icons/fi'
+import {BsCalendarCheckFill} from 'react-icons/bs'
 import {BsFillCameraVideoFill} from 'react-icons/bs'
+import {GiArtificialIntelligence} from 'react-icons/gi'
 import '../styles/Components.css'
 import { Link } from 'react-router-dom'
 import gLogo from '../static/greenLogo.png'
@@ -53,9 +54,14 @@ function SideBar({active}) {
                 icon: <BsFillCameraVideoFill/>,
             },
             {
-                name: 'Others',
-                link: '/others',
-                icon: <FiMoreVertical/>,
+                name: 'Calendar',
+                link: '/calendar',
+                icon: <BsCalendarCheckFill/>,
+            },
+            {
+                name: 'Disease Detector',
+                link: '/detect',
+                icon: <GiArtificialIntelligence/>,
             }
         ]
     }

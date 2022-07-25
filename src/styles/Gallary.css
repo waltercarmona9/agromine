@@ -1,0 +1,19 @@
+.gallary{
+    margin: auto;
+    max-width: 85%;
+}
+.gallary h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+}
+.imgflex img{
+    width: 500px;
+    height: 275px;
+    margin-top: 20px;
+}
+.imgflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
