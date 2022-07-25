@@ -1,0 +1,91 @@
+/* SearchBar */
+.searchbar{
+    background-color: white;
+    width: 83%;
+    padding: 14px 22px;
+    border-radius: 15px;
+    margin-left: 5px;
+    display: flex;
+}
+.search-icon{
+    font-size: 1.8vw;
+    opacity: 0.7;
+}
+.searchbar input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.5vw;
+    width: 95%;
+    padding-left: 8px;
+    opacity: 0.7;
+}
+ul li{
+    color: #142A19;
+}
+ul {
+    background-color: white;
+}
+
+/* SideBar */
+.sidebar{
+    background-color: white;
+    width: 20%;
+    height: 90vh;
+    border-radius: 15px;
+    padding: 10px 0;
+}
+.sidebar h1{
+    font-family: willywonka;
+    text-align: center;
+    color: #142A19;
+    font-size: 2.5vw;
+}
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.9vw;
+    margin-top: 15%;
+}
+.sidebar a{
+    color: #343434;
+    text-decoration: none;
+}
+.sidebar li{
+    display: flex;
+    padding: 10px 15%;
+    margin-bottom: 7%;
+}
+.sidebar span{
+    margin-left: 5%;
+    font-size: 1.2vw;
+}
+
+.active{
+    border-right: 7px solid #142A19;
+    background-color: rgba(77, 125, 0, 0.15);
+}
+
+
+/* Profile Btn */
+.profilebtn{
+    margin-left: 2%;
+    padding: 0;
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+.profilebtn img{
+    width: 60%;
+    border-radius: 50%;
+}
+.gl{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 20px;
+}

@@ -1,0 +1,159 @@
+.calender{
+    width: 750px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.cal {
+    color: white;
+    text-decoration: none;
+}
+.cal tr{
+    color: white;
+    text-decoration: none;
+}
+.cal button{
+    background-color: white;
+    border: black solid 2px;
+}
+.msp{
+    width: 250px;
+    background-color: #F2F2F2;
+    margin-top: 100px;
+}
+.box{
+    background-color: #F2F2F2;
+}
+.msp h1{
+    color: #073609;
+    font-size: 1.7em;
+}
+.name p{
+    font-size: 1.2rem;
+    font-family: "lufga";
+}
+.rates p{
+    font-size: 1.2rem;
+    font-family: "lufga";
+}
+
+
+
+.crop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.modalBackground {
+    /* width: 100vw;
+    height: 100vh; */
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-bottom: 0;
+    margin-top: -100px;
+  }
+  
+  .modalContainer {
+    width: 750px;
+    height: 490px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  
+button{
+    cursor: pointer;
+}
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 2px;
+  }
+  .title h1{
+    font-size: 3rem;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 5px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .modalContainer .body {
+    /* flex: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    /* flex: 20%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 230px;
+    height: 45px;
+    border: none;
+    background-color: #537E62;
+    color: white;
+    border-radius: 8px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: #537E62;
+  }
+  .flexbox{
+    display: flex;
+  }
+
+
+
+  .left, .right{
+    width: 100%;
+    padding: 7px;
+}
+
+.taskbox, .bonus, .tasks-status{
+    width: 88%;
+    position: relative;
+    margin-top: 30px;
+}
+.taskbox h2{
+    margin: 0;
+}
+.weather{
+    background-color: white;
+}
+.taskbox .flexbox{
+    margin-top: 12px;
+}
+.taskbox .flexbox div{
+    font-weight: bold;
+    color: rgba(0,0,0,0.8);
+    font-size: 1.15vw;
+    margin: auto;
+    margin-left: 15px;
+}
+
+

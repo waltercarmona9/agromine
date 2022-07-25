@@ -1,0 +1,35 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: auto;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text h1{
+    font-size: 3em;
+    color: #fff;
+    width: 80%;
+    font-weight: 600;
+}
+.text p{
+    color: aliceblue;
+    font-size: 1.6rem;
+    font-family: "Lufga";
+}
+.image img{
+    width: 420px;
+}
+.text button{
+    width: 150px;
+    height: 40px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    background-color: #008D06;
+    border: none;
+    color: white;
+    font-family: "Lufga";
+}
