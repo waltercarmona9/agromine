@@ -16,7 +16,7 @@ const Camera = () => {
                         <ProfileBtn />
                     </div>
 
-                    <iframe src={"http://192.168.0.103:8000"} />
+                    <iframe src={"https://192.168.0.103:8000"} />
 
                 </div>
             </div>

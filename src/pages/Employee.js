@@ -12,7 +12,7 @@ function Employee() {
     const [employee, setEmployee] = useState()
 
     useEffect(() => {
-        fetch('http://ordinapi.hailcore.club//details/employee')
+        fetch('https://ordinapi.hailcore.club//details/employee')
         .then(res => res.json())
         .then(data => setEmployee(data))
     }, [])

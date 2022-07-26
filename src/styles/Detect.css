@@ -54,3 +54,47 @@
     font-size: 1.2rem;
     margin-top: 35px;    
 }
+
+.imgi{
+    width: 620px;
+    height: 300px;
+}
+.boxz{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    background-color: rgb(235, 57, 57);
+    border: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    font-family:"lufga";
+}
+.btn-d{
+    background-color: rgb(66, 221, 74);
+    border: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    font-family:"lufga";
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    color: white;
+    font-family: "lufga";
+    font-size: 1rem;
+}
+.mybro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

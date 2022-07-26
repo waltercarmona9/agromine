@@ -63,7 +63,7 @@ function Dashboard() {
     const [user, setUser] = useState()
 
     useEffect(() => {
-        fetch('http://ordinapi.hailcore.club/details/orders', {
+        fetch('https://ordinapi.hailcore.club/details/orders', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({email:localStorage.getItem('session'), status: 'inprogress'})
@@ -74,7 +74,7 @@ function Dashboard() {
             setTasks(data)
         })
 
-        fetch('http://ordinapi.hailcore.club/details/orders', {
+        fetch('https://ordinapi.hailcore.club/details/orders', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({email:localStorage.getItem('session'), status: 'completed'})
@@ -84,7 +84,7 @@ function Dashboard() {
             setCompleted(data)
         })
 
-        fetch('http://ordinapi.hailcore.club/details/user', {
+        fetch('https://ordinapi.hailcore.club/details/user', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({email:localStorage.getItem('session')})

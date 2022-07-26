@@ -10,7 +10,7 @@ const Login = () => {
     const navigate = useNavigate()
 
     const submit = () => {
-        fetch('http://ordinapi.hailcore.club/auth/login', {
+        fetch('https://ordinapi.hailcore.club/auth/login', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({email:email, pass:pass})

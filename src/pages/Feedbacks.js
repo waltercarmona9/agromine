@@ -12,7 +12,7 @@ const Feedbacks = () => {
     const [email, setEmail] = useState()
 
     const submit = () =>{
-        fetch('http://http://ordinapi.hailcore.club/feedbacks/feedbacks', {
+        fetch('https://https://ordinapi.hailcore.club/feedbacks/feedbacks', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({user:name, feedback:msg, email:email})
