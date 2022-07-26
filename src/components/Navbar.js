@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../static/logo.png';
 import './Navbar.css';
 
@@ -11,22 +11,26 @@ const Navbar = () => {
               <a href="/"><img src={logo} alt="Logo" /></a>
           </div>
           <ul className="nav-list">
-                <li><Link
+                <li><NavLink
                 to='/'
                 className='nav-links' 
-                >Home</Link></li>
-                <li><Link
-                to='/About'
-                className='nav-links'  
-              >About</Link></li>
-              <li><Link
-                to='/Events'
+                >Home</NavLink></li>
+                <li><NavLink
+                to='/prices'
+                className='nav-links'
+              >Pricing</NavLink></li>
+              <li><NavLink
+                to='/gallary'
                 className='nav-links' 
-              >Contact</Link></li>
-              <li><Link
-                to='/Members'
+              >Gallary</NavLink></li>
+              <button><NavLink
+                to='/signup'
                 className='nav-links' 
-            >Login</Link></li>
+            >Sign Up</NavLink></button>
+            <li><NavLink
+                to='/login'
+                className='nav-links' 
+            >Log In</NavLink></li>
                 </ul>
         </nav>
         </>

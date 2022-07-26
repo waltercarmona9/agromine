@@ -15,7 +15,7 @@ const Others = () => {
     
   return (
     <div className='split flexbox'>
-                <SideBar active='others'/>
+                <SideBar active='calendar'/>
 
                 <div className='container'>
                     {/* searchbar */}

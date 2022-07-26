@@ -69,7 +69,7 @@ function SideBar({active}) {
     const logout = () => {
         localStorage.removeItem('session')
         localStorage.removeItem('admin')
-        window.location = '/login'
+        window.location = '/home'
     }
 
     return (

@@ -4,6 +4,7 @@ import '../styles/Dashboard.css';
 import drone from '../static/drone.png'
 import Clock from 'react-live-clock';
 import bar from '../static/bar.png';
+import silo from '../static/silo.png';
 //components
 import SearchBar from '../components/SearchBar';
 import SideBar from '../components/SideBar';
@@ -11,6 +12,8 @@ import ProfileBtn from '../components/ProfileBtn';
 
 
 function Dashboard() {
+    const todo = ["Apply Pesticides to crops for pretection against germs"];
+    let randomTodo = todo[Math.floor(Math.random()*todo.length)]
     const { data, isLoading, errorMessage } = useOpenWeather({
         key: '3d2f1ea6a2e8c4721f4d3173f17e44d6',
         lat: '28.5859',
@@ -45,18 +48,18 @@ function Dashboard() {
     const current = new Date();
 
   const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
-    const todo = [
-        {
-        task: 'Sow Monsoon crops: Brinjal , Tomato and Cucumber',
-        task_done: "55%" ,
-        task_id: 1
-        },
-        {
-        task: 'Sow Monsoon crops: Brinjal , Tomato and Cucumber',
-        task_done: "55%",
-        task_id: 2
-        }
-    ];
+    // const todo = [
+    //     {
+    //     task: 'Sow Monsoon crops: Brinjal , Tomato and Cucumber',
+    //     task_done: "55%" ,
+    //     task_id: 1
+    //     },
+    //     {
+    //     task: 'Sow Monsoon crops: Brinjal , Tomato and Cucumber',
+    //     task_done: "55%",
+    //     task_id: 2
+    //     }
+    // ];
 
     const [tasks, setTasks] = useState()
     const [completed, setCompleted] = useState()
@@ -132,14 +135,15 @@ function Dashboard() {
                                 </div>
 
                                 <div className='box taskbox'>
-                                    <h2>Ongoing Task:</h2>
+                                    <h2>Upcoming Task:</h2>
                                     <div className='bruh'>
                                         <div className="head">
-                                        <img src={bar}></img>
-                                        <h2>Check on Monsoom Crops: Brinjal, Tomato and Cocumber</h2>
+                                        <img src={silo}></img>
+                                        {/* <h2>Check on Monsoom Crops: Brinjal, Tomato and Cocumber</h2> */}
+                                        {todo.map(todo => <h2>{todo}</h2>)}
                                         </div>
                                         <div className="due">
-                                            <p><b>Task: </b>Fly over farmland to inspect growth of crops</p>
+                                            <p><b>Task: </b>Apply chemicals</p>
                                             <p><b>Due Date: </b>30/August/2022</p>
                                         </div>
                                         <div>
@@ -186,7 +190,7 @@ function Dashboard() {
         )
     }
     else{
-        window.location = '/login'
+        window.location = '/home'
     }
 }
 

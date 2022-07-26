@@ -89,3 +89,18 @@ ul {
     max-width: 100%;
     margin-top: 20px;
 }
+button{
+    background-color: #008D06;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+}
+ul{
+    align-items: center;
+}

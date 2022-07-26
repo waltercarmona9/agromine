@@ -15,7 +15,7 @@ const Price = () => {
           <p>Ideal for all types of farmers, subsides on plans available</p>
           <ul>
             <li>Monthly updates about yout soil</li>
-            <li>Drone Insurence upto a year</li>
+            <li>Drone insurance upto a year</li>
             <li>Using AI to check crop growth</li>
             <li>Liddar Mapping Included</li>
           </ul>
@@ -26,7 +26,7 @@ const Price = () => {
           <p>Ideal for large scale farmers, subsides on plans available</p>
           <ul>
             <li>Monthly updates about yout soil</li>
-            <li>Drone Insurence upto 1.5 year</li>
+            <li>Drone insurance upto 1.5 year</li>
             <li>Using AI to check crop growth</li>
             <li>Liddar Mapping Included</li>
             <li>Free Camera Live Feed</li>
@@ -39,7 +39,7 @@ const Price = () => {
           <p>Ideal for large scale farmers and industrial farmers subsides on plans available</p>
           <ul>
             <li>Monthly updates about yout soil</li>
-            <li>Drone Insurence upto 1.5 year</li>
+            <li>Drone insurance upto 1.5 year</li>
             <li>Using AI to check crop growth</li>
             <li>Liddar Mapping Included</li>
             <li>Free Camera Live Feed</li>
