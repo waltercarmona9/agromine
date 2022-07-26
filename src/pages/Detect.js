@@ -1,10 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SideBar from "../components/SideBar";
 import SearchBar from "../components/SearchBar";
 import ProfileBtn from "../components/ProfileBtn";
 import logo from '../static/L.png'
 import '../styles/Detect.css'
 const Detect = () => {
+    const [imgPreview, setImgPreview] = useState(null);
+    const [error, setError] = useState(false);
+    const handleImageChange = (e) => {
+        const selected = e.target.files[0];
+        const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/jpg"];
+        if(selected) {
+            if(ALLOWED_TYPES.includes(selected.type)) {
+                console.log("selected");
+                let reader = new FileReader();
+                reader.onloadend = () => {
+                    setImgPreview(reader.result);
+                }
+                reader.readAsDataURL(selected);
+            }
+            else {
+                setError(true);
+                alert("error ajeeb img");
+            }
+        }
+    }
     return (
         <div>
             <div className='split flexbox'>
@@ -23,8 +43,17 @@ const Detect = () => {
                     <div className="boxz">
                     <div className="dropbox">
                         <div className="flexi">
+                            {!imgPreview && (
+                                <>
                         <img src={logo}></img>
                         <p>Add/Drop an Image</p>
+                        <label htmlFor='fileUpload'></label>
+                        </>
+                            )}
+                        {error && <p>Error: Image must be a jpeg, png or jpg</p>}
+                        <div style={{background: imgPreview ? `url("${imgPreview}") no-repeat center/cover` : "#131313"}}>
+                        </div>
+                        <input type="file" id="fileUpload" onChange={handleImageChange}></input>
                         </div>
                     </div>
                     <div className="xd">
