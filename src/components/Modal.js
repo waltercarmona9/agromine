@@ -2,8 +2,18 @@ import React from "react";
 import "../styles/Others.css";
 
 function Modal({ setOpenModal }) {
-  const list = ["hi" , "hello", "hey"]
-  const randomlist = list[Math.floor(Math.random()*list.length)];
+  // get random index value
+    const randomIndex = Math.floor(Math.random() * arr.length);
+
+    // get random item
+    const item = arr[randomIndex];
+
+    return item;
+}
+
+const array = [1, 'hello', 5, 8];
+
+const result = getRandomItem(array);
   
   return (
     <div className="modalBackground">
@@ -19,7 +29,7 @@ function Modal({ setOpenModal }) {
         </div>
         <div className="title">
           <h1>Task for the day</h1>
-<p>{randomlist}</p>
+<p>{result}</p>
         </div>
         <div className="footer">
           <button
