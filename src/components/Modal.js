@@ -11,7 +11,7 @@ function Modal({ setOpenModal }) {
     return item;
 }
 
-const array = [1, 'hello', 5, 8];
+const array = ['Perform maintenance on the farm', 'Apply Pesticides', 'Plough the field and make it reasy for next harvest', 'Operate combine to harvest crops'];
 
 const result = getRandomItem(array);
   
