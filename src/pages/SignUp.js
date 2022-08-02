@@ -52,7 +52,7 @@ const SignUp = () => {
                                     </div>
                                 <div className="form">
                                 <input type="email" placeholder="Enter your Email" onChange={val=>setEmail(val.target.value)}/>
-                            <input type="password" placeholder="Enter your Password" onChange={val => setPass(val.target.value)}/>
+                            <input type="password" placeholder="Enter your Password (at least 8 char)" onChange={val => setPass(val.target.value)}/>
                             <button type='submit' onClick={submit}>Submit</button>
                                 </div>
                                 </div>
