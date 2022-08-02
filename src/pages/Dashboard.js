@@ -21,7 +21,18 @@ function Dashboard() {
         lang: 'en',
         unit: 'metric', // values are (metric, standard, imperial)
       });
+    
+     // get random index value
+    const randomIndex = Math.floor(Math.random() * arr.length);
 
+    // get random item
+    const item = arr[randomIndex];
+
+    return item;
+}
+
+const array = [ "Perform maintenance on the farm" , "Apply Pesticides" , "Plough the field and make it ready for next harvest" , "Operate combine to harvest crops" ]
+const result = getrandomItem(array)
       const customStyles = {
         fontFamily:  'Lufga',
         gradientStart:  '#fff',
@@ -119,7 +130,8 @@ function Dashboard() {
                                     <div className='bruh'>
                                         <div className="head">
                                         <img src={bar}></img>
-                                        <h2>Sow Monsoon Crops: Brinjal, Tomato and Cocumber</h2>
+                             //           <h2>Sow Monsoon Crops: Brinjal, Tomato and Cocumber</h2>
+<h2> {result} <h2>
                                         </div>
                                         <div className="due">
                                             <p><b>Task: </b>Sow Brinjal Seeds</p>
