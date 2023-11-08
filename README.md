@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+***Problema***
+A agricultura é um setor importante um dos maiores é aumentar a produção e a entrega aos clientes finais com baixo custo e boa qualidade. Depois de fazer algumas pesquisas na internet, ficamos sabendo que esses são Três grandes problemas enfrentados pelos agricultores nos dias de hoje.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**_Baixa produtividade da lavoura_** – porque a maioria desconhece o fato que a condição do solo e as condições climáticas podem mudar com o tempo.
+**_Menos lucro ganho_** - Desconhecimento do preço de mercado atual
+**_Perda por falta de conhecimento de quais agrotóxicos usar._**
 
-## Available Scripts
+***Solução***
+Para resolver esses problemas, desenvolvemos um modelo de machine learning utilizando o Algoritmo da *Microsoft* Inteligência Artificial Generativa que prevê a cultura que deve ser cultivada com base em condições como: Nitrogênio, fósforo, potássio, precipitação, temperatura, umidade, PH e umidade como entrada. Analisamos mais de 2200 linhas de dados de cerca de 25 culturas e classificamos em grupos, treinaram um modelo para prever qual cultura tem melhor produtividade da cultura. Então nós desenvolvemos Aplicação Android como um protótipo que tem três módulos que são destinados a prever culturas, sugerir pesticidas para uma determinada cultura e exibir o preço atual de mercado de lavoura. Mais tarde, interligamos o modelo de ML com um aplicativo Android usando bancos de dados em tempo real do Firebase.
 
-In the project directory, you can run:
+***Implementação técnica***
+Dataset: 7 atributos – Nitrogênio, Fósforo, Potássio, Precipitação pluviométrica, temperatura, umidade e tipo de cultura. Dos quais 6 atributos, exceto tipo de corte, são usados como entrada e tipo de corte é usado como destino saída. O conjunto de dados é dividido em proporção 8:2, 80% é usado para treinamento e 20% é usado para testes. Usando android studio para desenvolver um aplicativo móvel com ferramenta kotlin e adicionado firebase para intercalar com modelo de ML para prever a produção e colheita.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+***Resultado***
+ Após o treinamento do modelo, quando o modelo foi testado sobre os dados do teste, obteve-se o precisão em torno de 98 por cento. Diminui as perdas sofridas pelos agricultores. Aumento da produção agrícola, diminuição do alimentos e outras comodities garantindo estabilidade nos preços.
+ 
+***Caso de uso***
+Esta aplicação pode ser utilizada por qualquer agricultor que tenha acesso aparelho celular. Para verificar a melhor safra, dicas além de melhorar o uso de agrotóxicos.
