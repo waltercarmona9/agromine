@@ -2,13 +2,13 @@
 
 O Agro negócio é um setor importante para a economia de muitos países, um dos maiores desafios desse setor é aumentar a produção e maximizar a entrega aos clientes finais, reduzindo custo e aumentandoo a qualidade. Identificamos vários problemas enfrentados pelos agricultores nos dias de hoje tais como:
 
-_**1 - Uso Ineficiente de Recursos Naturais** - Aproximadamente 30% da água doce é usada na agricultura. 
-**2 - Desmatamento** - Grande parte é proveniente de desmatamento ilegal e clandestino.
-**3 - Mudanças Climáticas** - Aumento médio da temperatura de 1,2°C desde o século XIX. Eventos climáticos extremos afetam a produção agrícola.
-**4 - Infraestrutura Deficiente** - A falta de infraestrutura de transporte encarece a logística. Estradas ruins prejudicam o escoamento de produtos.
-**5 - Pesticidas e Agrotóxicos** - O Brasil é um dos maiores consumidores mundiais de pesticidas. O uso excessivo pode impactar na saúde pública e no meio ambiente. Cerca de 20% de produção é perdido devido a controles ineficientes de pragas.
-**6 - Questões de Saúde Animal** - Surto de febre aftosa pode afetar a pecuária. Necessidade de medidas de prevenção e controle.
-**7 - Mercado Internacional** - Flutuações nos preços de commodities. Dependência de exportações agrícolas e pecuárias.
+_**1 - Uso Ineficiente de Recursos Naturais** - Aproximadamente 30% da água doce é usada na agricultura.  
+**2 - Desmatamento** - Grande parte proveniente de desmatamento ilegal e clandestino.  
+**3 - Mudanças Climáticas** - Aumento médio da temperatura de 1,2°C desde o século XIX. Eventos climáticos extremos afetam a produção agrícola.  
+**4 - Infraestrutura Deficiente** - Falta de infraestrutura de transporte encarece a logística. Estradas ruins prejudicam o escoamento de produtos.  
+**5 - Pesticidas e Agrotóxicos** - O Brasil é um dos maiores consumidores mundiais de pesticidas. O uso excessivo pode impactar na saúde pública e no meio ambiente. Cerca de 20% de produção é perdido devido a controles ineficientes de pragas.  
+**6 - Questões de Saúde Animal** - Surto de febre aftosa pode afetar a pecuária. Necessidade de medidas de prevenção e controle.  
+**7 - Mercado Internacional** - Flutuações nos preços de commodities. Dependência de exportações agrícolas e pecuárias.  
 **8 - Acesso à Tecnologia** - Disparidade na adoção de tecnologias agrícolas. Pequenos agricultores enfrentam dificuldades no acesso._ 
 
 ***Solução***
